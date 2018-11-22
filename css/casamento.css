@@ -1,0 +1,132 @@
+div.header {
+  background-image: url("../img/header.png");
+  background-repeat: repeat-x;
+  height: 160px;
+
+}
+
+div.footer {
+  background-image: url("../img/footer.png");
+  background-repeat: repeat-x;
+  height: 160px;
+  bottom: 0;
+  width: 100%;
+
+}
+
+div.grooms {
+  width: inherit;
+  height: 160px;
+  background-image:url('../img/nomes.png') ;
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  margin:0;
+  padding:0;
+  z-index:-1;
+}
+
+.jumbotron {
+  background-color: transparent;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.jumbotron p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+div.center {
+    color: #435E6F;
+    margin: 20px;
+    text-align: center;
+    border: 3px solid #435E6F;
+}
+
+#sala {
+    color: #435E6F;
+    margin: 20px;
+    text-align: center;
+    border: 3px solid #435E6F;
+    height: auto;
+    width: auto;
+}
+
+#tabela_sala {
+  width: 100%;
+}
+
+#table_1 {
+  margin-top: 10px;
+}
+
+#table_3 {
+  margin-bottom: 10px;
+}
+
+.line_1 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.line_2 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.line_3 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+tr {
+  margin-bottom: 20px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #435E6F;
+    margin: auto;
+    color: white;
+  }
+
+.noivos {
+  width: 20px;
+  height: 20px;
+}
+.table_indicator {
+  background: #DFE247 !important;
+}
+
+#planta_sala {
+  text-align: center;
+  color: #435E6F;
+}
+
+.resp_frame {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (min-width: 400px) {
+  .circle {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #435E6F;
+    margin: auto;
+    color: white;
+  }
+
+  .noivos {
+    width: 40px;
+    height: 40px;
+  }
+}
